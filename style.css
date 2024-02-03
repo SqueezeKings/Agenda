@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #ffc800;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 150vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e3b3b54;
+}
+
+.citas {
+    width: 90%;
+    background-color: #3e3b3b54;
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cita {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hora {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-right: none;
+}
+
+.contenedor {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.contenedordos {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    flex-direction: column;
+    left: 15px;
+}
+
+.forms {
+    width: 500px;
+    background: grey;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #524c4c;
+    width: 802px;
+    height: 90px;
+    font-size: 65px;
+
+}
+
+img {
+    width: 150px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerrar {
+    width: 90%;
+    height: 84px;
+}
+
+.nombre {
+    width: 80%;
+    height: 30px;
+    font-size: 32px;
+}
+
+#select {
+    width: 80%;
+    height: 30px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #524c4c;
+    width: 80%;
+    height: 38px;
+    font-size: 20px;
+}
